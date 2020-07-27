@@ -32,3 +32,4 @@ firestore.indexes.json
 firestore.rules
 storage.rules
 *.lock
+.vscode
