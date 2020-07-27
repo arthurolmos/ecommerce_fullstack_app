@@ -22,9 +22,11 @@ Utiliza:
     - Material Table (materialUI)
     - Unform
     - validação (Yup)
+    - ContextAPI
 
   - Frontend (Site):
     - ReactJS
     - Axios
     - Bootstrap
     - Styled-Components
+    - ContextAPI
