@@ -1,0 +1,12 @@
+const path = require('path')
+const env  = process.env.NODE_ENV === 'test' ? '.env.test' : '.env'
+
+module.exports = {
+    config: path.resolve(__dirname, 'src', 'config', 'database.js'),
+    'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations'),
+    'seeders-path': process.env.NODE_ENV === 'test' ? 
+                        path.resolve(__dirname, '__tests__', 'database', 'seeders')
+                        :
+                        path.resolve(__dirname, 'src', 'database', 'seeders'),
+    'models-path': path.resolve(__dirname, 'src', 'models'),
+}

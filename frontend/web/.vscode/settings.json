@@ -1,0 +1,7 @@
+{
+    "totvsLanguageServer.welcomePage": false,
+    "totvsLanguageServer.askEncodingChange": false,
+    "[advpl]": {
+        "files.encoding": "windows1252"
+    }
+}
